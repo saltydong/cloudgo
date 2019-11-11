@@ -21,5 +21,5 @@ func main() {
         port = *pPort
     }
     //启动server
-    service.NewServer(port)
+    server.NewServer(port)
 }
