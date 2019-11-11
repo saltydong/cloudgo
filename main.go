@@ -1,7 +1,7 @@
 package main
 import (
     "os"
-    "web/service"
+    "./server"
     flag "github.com/spf13/pflag"
 )
 const (

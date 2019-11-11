@@ -1,12 +1,12 @@
-package service
+package server
 import (
-    "github.com/go-martini/martini" 
+    "github.com/codegangsta/martini" 
 )
 func NewServer(port string) {   
     m := martini.Classic()
 
     m.Get("/", func(params martini.Params) string {
-        return "hello world"
+        return "bingo"
     })
 
     m.RunOnAddr(":"+port)   
